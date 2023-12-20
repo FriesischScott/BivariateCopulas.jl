@@ -1,4 +1,4 @@
-copulas = [Clayton.([-0.75, 1])... Frank.([1.0, 10.0])...]
+copulas = [Independence(), Clayton.([-0.75, 1])..., Frank.([1.0, 10.0])...]
 
 @testset "Archimedean Copulas" begin
 

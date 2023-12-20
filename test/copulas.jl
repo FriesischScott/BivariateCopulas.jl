@@ -1,4 +1,4 @@
-copulas = [Clayton.([-0.75, 2])... Frank.([1, 10])...]
+copulas = [Independence(), Clayton.([-0.75, 2])..., Frank.([1, 10])...]
 n = 10^5
 
 @testset "Copulas" begin
